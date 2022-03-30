@@ -1,0 +1,21 @@
+{
+  "userList": [
+    {
+      "userName": "chandru",
+      "emailId": "chandru@gmail.com",
+      "phoneNo": "1234567890",
+      "passWord": "iamchandru",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

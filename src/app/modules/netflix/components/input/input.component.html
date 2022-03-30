@@ -1,0 +1,23 @@
+
+<div>
+    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+<br>  <form [formGroup] = "signUpForm" class="contac-form email-form d-inline-flex" >
+        <div clas="email-form-lockup">
+            <ul>
+                <li>
+                    <div class="label-float">
+                        <input type="email" placeholder="Email addrress " name="email" class="email-input pl-2" tabindex="0"
+                        formControlName='email'  autocomplete="email"/>
+                        <label style="color:dimgray">Email Address</label>
+                    </div>
+                  
+                </li>
+            </ul>
+        </div>
+        <div>
+            <button (click)="submit()"  class="btn" type="button">
+                <span id="" class="cta-btn-txt"><a style="text-decoration:none; color:white" routerLink = "logincard">Get Started &gt;</a></span>
+            </button>
+        </div>
+    </form>
+</div>

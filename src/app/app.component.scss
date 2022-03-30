@@ -1,0 +1,24 @@
+
+li
+{
+    margin-left: 0px;
+    margin-right:10px;
+    font-size:large;
+    text-align: center;
+    justify-content: center;
+    position: relative
+}
+li:hover{
+    color:white;
+    background-color:violet;
+    transition: all 0.2s;
+    
+  }
+  .nav-brand:hover{
+    color:white;
+    background-color: red;
+    transition: all 0.2s;
+ 
+  }
+  
+  

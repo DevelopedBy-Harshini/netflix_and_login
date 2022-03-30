@@ -1,0 +1,48 @@
+
+
+<div class="container">
+    <h1>RETREIVED DATA VALUES FROM THE FORM</h1>
+    <div>
+        <!--<mat-form-field appearance="standard">
+            <mat-label>Filter</mat-label>
+            <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
+          </mat-form-field>-->
+          
+          <div class="mat-elevation-z8">
+            <table mat-table [dataSource]="dataSource" matSort>
+          
+              <!-- ID Column -->
+              <ng-container matColumnDef="userName">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> USERNAME </th>
+                <td mat-cell *matCellDef="let row"> {{row.userName}} </td>
+              </ng-container>
+          
+              <!-- Progress Column -->
+              <ng-container matColumnDef="emailId">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> EMAIL_ID </th>
+                <td mat-cell *matCellDef="let row"> {{row.emailId}} </td>
+              </ng-container>
+          
+              <!-- Name Column -->
+              <ng-container matColumnDef="phoneNo">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> PHONE NUMBER </th>
+                <td mat-cell *matCellDef="let row"> {{row.phoneNo}} </td>
+              </ng-container>
+          
+              <!-- Fruit Column -->
+              <ng-container matColumnDef="passWord">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> PASSWORD </th>
+                <td mat-cell *matCellDef="let row"> {{row.passWord}} </td>
+              </ng-container>
+          
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          
+              
+            </table>
+          
+           <!-- <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>-->
+          </div>
+          
+    </div>
+</div>

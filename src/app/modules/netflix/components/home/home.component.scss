@@ -1,0 +1,184 @@
+
+label{
+    color:black;
+}
+.content{
+    background-color: rgb(63,62,62);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Poppins', sans-serif;
+}   
+.navbar .logo{
+    width: 150px;
+}
+
+.navbar select, .navbar button{
+    height: 40px;
+    width:80px;
+    color:white;
+    justify-content: space-between;
+    
+
+}
+.nav-item{
+    margin-right:10px;
+    margin-left:10px;
+    padding-right: 5px;
+    padding-left:5px;
+}
+.nav-item select{
+    padding-left:25px;
+    width:100px;
+    padding-right:20px;
+}
+.nav-item button{
+    width:100px;
+}
+
+.first-section{
+    background-image: linear-gradient(to top, transparent 0%,rgb(0,0,0) 150%),
+    linear-gradient(to bottom,transparent 0%, rgb(0,0,0) 130%),
+    url('https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/2341e349-a6fc-4b04-a0ad-9b21defa1f88/IN-en-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ button a{
+    text-decoration: none;
+    color:white
+}
+
+/**h1{
+    color:white;
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+    height:80px;
+    position: relative;
+    justify-content: center;
+    padding-top:175px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:150px;
+    font-size:65px;
+
+}**/
+.first-section .text-apresentation{
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    width:1500px;
+    height: 500px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+  }
+  h1{
+      font-size: 1.8em;
+  }
+h4{
+    margin-top:15px;
+    font-size: 0.75 em;   
+}
+
+
+.features-section{
+    background-color: rgb(0, 0, 0);
+    min-height: 65vh;
+  }
+  .animation-tv img, .animation-desktop img{
+    z-index: 2;
+    max-width: 500px;
+  }
+  .animation-tv video{
+    max-width: 370px;
+    
+  }
+  .animation-download .mobile{
+    max-width: 550px;
+  }
+  .mini-gif-group{
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 159, 159);
+    background-color: rgb(0, 0, 0);
+  }  
+  .mini-gif-group .poster{
+    max-width: 50px;
+    
+  }
+  
+  .mini-gif-group .gif{
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .animation-desktop video{
+    max-width: 320px;
+    
+  }
+  .kids-group img{
+    max-width: 500px;
+  }
+  .toggle-bar{
+    width: 815px;
+    font-size: 1.625rem;
+    font-weight: 400;
+  }
+  .card{
+    background: #303030;
+    color: #fff;
+  }
+  .btn-toggle{
+    color: #fff;
+    font-size: 1.625rem;
+  }  
+  .plus-Button{
+    border: none;
+    color: #fff;
+    background-color:#303030;
+    margin-left: 500px;
+  }
+ .plus-Button2{
+     margin-left:360px;
+     color: #fff;
+    background-color:#303030;
+    border:none;
+ 
+ }
+ .plus-Button3{
+    border: none;
+    color: #fff;
+    background-color:#303030;
+    margin-left: 451px;
+  }
+  
+.plus-Button4{
+    border: none;
+    color: #fff;
+    background-color:#303030;
+    margin-left: 496px;
+  }
+  
+.plus-Button5{
+    border: none;
+    color: #fff;
+    background-color:#303030;
+    margin-left: 360px;
+  }
+  .plus-Button6{
+    border: none;
+    color: #fff;
+    background-color:#303030;
+    margin-left: 425px;
+  }
+  
+  @media(max-width: 1199px){
+    .text-group{
+      text-align: center;
+    }
+  }
+  
+  button:not(.collapsed) > button {
+    transition: .1s;
+    transform:rotate(45deg) ;
+  }
+  
+  
+    

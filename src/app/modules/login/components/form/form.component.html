@@ -1,0 +1,42 @@
+<app-display></app-display>
+<form [formGroup]="userform">
+    <h1 mat-dailog-title>USER FORM</h1>
+
+
+  <mat-form-field  appearance="fill">
+    <mat-label>Enter your Name</mat-label>
+    <input formControlName = "userName"matInput placeholder="Enter the user name.." >
+  </mat-form-field>
+
+
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your email</mat-label>
+      <input formControlName = "emailId" matInput placeholder="abc@example.com" >
+      </mat-form-field>
+   </div>
+
+
+   
+   
+   <mat-form-field class="example-container" appearance="fill">
+    <mat-label>Enter Your Phone Number</mat-label>
+    <input formControlName = "phoneNo" matInput mask="(000) 000-0000" placeholder="Enter your 10 digit phone number"  >
+  </mat-form-field>
+
+
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your password</mat-label>
+      <input  formControlName = "passWord" matInput [type]="hide ? 'password' : 'text'" >
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <!--<mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>-->
+      </button>
+    </mat-form-field>
+    </div>
+     
+    <div class="example-button-row">
+        <button mat-raised-button color="accent" (click)="onSubmit()">Submit</button>
+        </div>
+</form>
+
